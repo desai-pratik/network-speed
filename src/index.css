@@ -9,5 +9,16 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace;    
+}
+canvas{
+  width: 180px !important;
+  height: 180px !important;
+}
+
+canvas::before{
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-color:red;
 }
